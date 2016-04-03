@@ -39,6 +39,12 @@ svg {
   fill: #f60;
 }
 
+.btn:active {
+  fill: #f60;
+  transition: all 1s;
+  transition-delay: .5s;
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
 }

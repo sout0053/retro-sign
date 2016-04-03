@@ -9,7 +9,7 @@ $btn.on('click', function () {
   $lines.toggleClass('lines');
   $engage.toggleClass('is-engaged');
 }); */
-
+var $svg = $('svg');
 var $lines = $('.lines');
 var $btn = $('.btn');
 var $engage = $('.engage');
