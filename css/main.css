@@ -94,3 +94,9 @@ svg {
   transition: all 1s;
   transition-delay: .5s;
 }
+
+.engage {
+  fill: #f60;
+  transition: all 1s;
+  transition-delay: .5s;
+}
