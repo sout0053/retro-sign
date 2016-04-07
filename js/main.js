@@ -1,22 +1,10 @@
-/*  var $svg = $('svg');
-var $lines = $('.lines');
-var $btn = $('.btn');
-var $engage = $('.engage');
-
-$btn.on('click', function () {
-  $btn.toggleClass('btn-2');
-  $lines.toggleClass('linify');
-  $lines.toggleClass('lines');
-  $engage.toggleClass('is-engaged');
-}); */
 var $svg = $('svg');
 var $lines = $('.lines');
-var $btn = $('.btn');
 var $engage = $('.engage');
+var $btn = $('.btn');
 
-$btn.on('click', function () {
-  $btn.toggleClass('btn-2');
-  $lines.toggleClass('linify');
-  $lines.toggleClass('lines');
-  $engage.toggleClass('is-engaged');
+$('svg').on('click', function (e) {
+  $('.lines').toggleClass('is-pressed');
+  $('.engage').toggleClass('is-engage');
+  $('svg').toggleClass('is-pressed');
 });
